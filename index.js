@@ -21,9 +21,6 @@ mongoose.connection
 app.use(cors());
 app.use(bodyParser.json());
 
-// app.get("/", (req, res) => {
-//   res.send("its meeeeee");
-// });
 app.use("/api", routes);
 
 app.listen(8000, () => {
